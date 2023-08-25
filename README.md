@@ -19,8 +19,6 @@
 
 <div align="center">
 
-```
  📌 Para rodar é só ter o Python instalado na sua máquina, fazer o download do repositório e executar o arquivo main.py
-```
 
 </div>
