@@ -24,7 +24,6 @@ def consultar_colaborador():
 			if len(lista_colaboradores) > 0: #verifica se a lista tem pelo menos um item. Se não tiver, cai no else falando que a lista está vazia.
 				for colaborador in lista_colaboradores:
 					print('id: {}\nnome: {}\nsetor: {}\nsalário: {}\n'.format(colaborador.get('id'), colaborador.get('nome'), colaborador.get('setor'), colaborador.get('salário')))
-				break
 			else:
 				print ('Não há colaboradores cadastrados. Lista vazia.')
 		elif opcao == 2: #printar apenas o colaborador do id específico
